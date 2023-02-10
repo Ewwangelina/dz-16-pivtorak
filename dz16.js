@@ -7,18 +7,6 @@ const key = generateKey(16, characters);
 console.log(key); // eg599gb60q926j8i
 */
 
-
-/*const characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
-word = '';
-
-for(let i = 0; i < 16; i++){
-    word += characters[Math.round(Math.random() * (characters.length - 1))];
-}
-console.log(word);*/
-
-//---------------//
-
-
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 
 function generateKey(length, characters) {
