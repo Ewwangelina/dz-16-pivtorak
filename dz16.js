@@ -10,7 +10,7 @@ console.log(key); // eg599gb60q926j8i
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 
 function generateKey(length, characters) {
-    let result = 1;
+    let result = '';
     for(let i = 0; i <= length; i++){
         result+=characters.charAt(Math.floor(Math.random()*characters.length));
     }
